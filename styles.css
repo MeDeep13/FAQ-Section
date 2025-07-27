@@ -1,0 +1,42 @@
+*{
+                margin:0px;
+                padding:0px;
+                font-family: sans-serif;
+            }
+            body {
+                height: 100vh; /* Ensures the gradient covers the full viewport height */
+                margin: 0;      /* Removes default margin */
+                background: linear-gradient(to right, #b6e4ba, #cce2d1);
+            }
+
+            h1{
+                text-align: center;
+                padding: 30px 0px;
+            }
+            .faqmid{
+                max-width: 1000px;
+                margin:auto;
+            }
+            .faqitems{
+                border: 1px solid #ccc;
+                margin-bottom: 20px;
+            }
+            .faqitems h3{
+                padding:10px;
+                background-color: goldenrod;
+                position: relative;
+                cursor: pointer;
+            }
+            .faqitems p{
+                padding:10px;
+                line-height: 30px;
+                font-size: 18px;
+                display: none;
+            }
+            .faqitems h3 span{
+                position:absolute;
+                right:12px;
+            }
+            .showAns{
+                display: block !important;
+            }
